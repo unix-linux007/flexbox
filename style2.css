@@ -8,24 +8,26 @@
   }
   
   .logo {
+    
     font-size: 48px;
     font-weight: 900;
     color: tomato;
     background: white;
-    padding: 4px 32px;
-
+    padding: 2px 12px;
+    margin: 8px 0;
   }
   
     .listL {
         display: flex;
     justify-content: flex-start;
+    margin: 0 0 0 -27px;
     gap: 8px;
 }
 
   .listR {
     display: flex;
     justify-content: flex-end;
-    margin: 0 0 0 -4px;
+    margin: 0 10px 0 0;
     gap: 8px;
   }
 
