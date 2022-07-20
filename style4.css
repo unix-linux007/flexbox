@@ -1,0 +1,70 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+  }
+  
+  .details {
+    display: flex;
+    flex: row nowrap;
+    gap: 32px;
+  }
+
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text {
+    height: 200px;
+    width: 200px;
+  }
+
+
+  /* do not edit this footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
