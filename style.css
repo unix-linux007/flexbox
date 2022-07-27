@@ -22,6 +22,13 @@ body {
     justify-content: space-around;
   }
 
+  .topleft {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: flex-start;
+  }
+
   img {
     width: 100px;
     height: 100px;
@@ -29,7 +36,7 @@ body {
   }
 
   .logo {
-    margin-left: -55px;
+    margin-left: 0px;
   }
 
   .textbold {
@@ -55,8 +62,10 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
     gap: 42px;
+    width: 60%;
 
   }
 
